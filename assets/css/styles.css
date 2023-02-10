@@ -12,17 +12,29 @@ header{
     min-height: 10vh;
     padding: 1rem;
 }
-/* #image2{
-    display: block;
-    min-width: 150vh;
-    height: 200px;
-} */
+
 div{
     background-image: url(../img/design1_image2.jpg);
     background-size: cover; 
     min-height: 200px;
     padding: 0;
 
+}
+nav{
+    
+}
+nav a{
+    
+    color: aliceblue;
+    background-color: blue;
+    margin: 1rem;
+    border-bottom: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+a[href="#"]{
+    background-color: green;
 }
 #logo{
     width: 150px;
