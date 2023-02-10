@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: darkkhaki;
+    min-height: 10vh;
+    padding: 1rem;
+}
+
+nav{
+    background-image: url(./../img/design1_image1.jpg);
+}
