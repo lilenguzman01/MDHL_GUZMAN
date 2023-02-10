@@ -5,7 +5,7 @@
     font-family:cursive;
 }
 body{
-    background-color: black;
+    background-color: rgb(238, 234, 234);
 }
 header{
     background-color: darkkhaki;
@@ -13,7 +13,7 @@ header{
     padding: 1rem;
 }
 
-div{
+#nave{
     background-image: url(../img/design1_image2.jpg);
     background-size: cover; 
     min-height: 200px;
@@ -36,6 +36,25 @@ nav a{
 a[href="#"]{
     background-color: green;
 }
+
+#titulo{
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 30px;
+    
+}
+main div{
+    
+    display:inline-block;
+    
+}    
+
 #logo{
     width: 150px;
+    padding: 2px;
+    
+}
+#imagenFinal{
+    display: block;
+    padding: 5vh;
 }
