@@ -5,22 +5,32 @@
     font-family:cursive;
 }
 body{
-    background-color: rgb(238, 234, 234);
+    background-color:blue;
+    min-width: 80vw;
+    height: 100vh;
 }
 header{
     background-color: darkkhaki;
-    min-height: 10vh;
+    min-height: 5vh;
     padding: 1rem;
 }
 
-#nave{
-    background-image: url(../img/design1_image2.jpg);
+/* #nave{
+    background-image: url(../img/design1_image2.jpg); 
     background-size: cover; 
-    min-height: 200px;
+    min-height: 250px;
     padding: 0;
+    box-sizing: content-box;
+    /* min-height: 250px;
+    box-sizing: content-box; 
 
-}
+} */
 nav{
+    min-width: 80vw;
+    height: 40vh;
+    background-image: url(../img/design1_image2.jpg); 
+    background-size: cover;
+    background-position: 0 35%;
     
 }
 nav a{
