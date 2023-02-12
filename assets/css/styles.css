@@ -37,8 +37,9 @@ nav a{
     
     color: aliceblue;
     background-color: blue;
+    border: 1px solid black;
+    box-shadow: 3px 4px 0px gray;
     margin: 1rem;
-    border-bottom: 1rem;
     padding: 0.5rem;
     text-decoration: none;
     text-align: center;
