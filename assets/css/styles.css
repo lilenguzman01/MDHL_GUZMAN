@@ -5,7 +5,7 @@
     font-family:cursive;
 }
 body{
-    background-color:blue;
+    
     min-width: 80vw;
     height: 100vh;
 }
@@ -13,17 +13,6 @@ header{
     min-height: 5vh;
     padding: 1rem;
 }
-
-/* #nave{
-    background-image: url(../img/design1_image2.jpg); 
-    background-size: cover; 
-    min-height: 250px;
-    padding: 0;
-    box-sizing: content-box;
-    /* min-height: 250px;
-    box-sizing: content-box; 
-
-} */
 nav{
     min-width: 80vw;
     height: 40vh;
@@ -47,16 +36,25 @@ nav a{
     left: 70%;
     bottom:5px;
 }
+main{
+    
+    margin-top: 20px;
+}
 a[href="#"]{
     background-color: green;
 }
-main{
-    padding-top: 10px;
-}
 section{
     display: inline-block;
-    min-width: 80vw;
-    margin-left: 50px;
+    min-width: 70vw;
+    margin-left: 220px;
+}
+article{
+    
+    padding-bottom: 1rem;
+    width: 80vw;
+}
+article p{
+    margin-top: 10px;
 }
 #titulo{
     display: flex;
@@ -65,13 +63,19 @@ section{
     
     
 }
-#logo{
-    margin-left: 35px;
+aside{
+    position: absolute;
+    top: 60%;
+    margin-left: 30px;
     width: 150px;
-    
-    
+    display: inline-block;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 30px;
 }
 #imagenFinal{
-    margin-left: 35px;
-    padding: 20px ;
-}
+    width: 150px;
+    height: 150px;
+} 
