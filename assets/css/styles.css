@@ -10,7 +10,6 @@ body{
     height: 100vh;
 }
 header{
-    background-color: darkkhaki;
     min-height: 5vh;
     padding: 1rem;
 }
@@ -43,6 +42,9 @@ nav a{
     padding: 0.5rem;
     text-decoration: none;
     text-align: center;
+    position: relative;
+    left: 70%;
+    bottom:5px;
 }
 a[href="#"]{
     background-color: green;
