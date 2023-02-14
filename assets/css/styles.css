@@ -6,29 +6,27 @@
 }
 
 body {
-    
-    min-width: 95vw;
-    height: 100vh;
     background-color: rgb(40, 35, 107);
 }
 
 header {
-    
+
     position: fixed;
-    top:0.1px;
+    top: 0.1px;
     font-size: 0.9rem;
-    margin: 0rem 1rem;
-    height: 35vh;
+    width: 100vw;
+    min-height: 15vh;
     display: flex;
-    align-items:center;
+    align-items: center;
     background-image: url(../img/design1_image2.jpg);
     background-size: cover;
     background-position: 0 20%;
 }
-#h1Header{
+
+#h1Header {
     color: rgb(233, 236, 242);
     margin-right: 6rem;
-} 
+}
 
 #logo {
     width: 135px;
@@ -55,16 +53,22 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
-
-main {
-    
-    margin: 1rem;
-    margin-top: 40vh;
-    min-width: 80vw;
-}
-
 a[href="#"] {
     background-color: rgba(194, 231, 14, 0.742);
+}
+
+main {
+    outline: solid red;
+    /* margin: 1rem 30vh; */
+    margin-top: 30vh;
+    min-height: 85vh;
+}
+
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 section {
@@ -89,7 +93,7 @@ article p {
 }
 
 aside {
-    
+
     margin-left: 30px;
     width: 150px;
     display: inline-block;
