@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: rgb(40, 35, 107);
+    background-color: rgb(81, 74, 167);
+    color: white;
 }
 
 header {
@@ -53,55 +54,53 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
+
 a[href="#"] {
     background-color: rgba(194, 231, 14, 0.742);
 }
 
 main {
-    outline: solid red;
-    /* margin: 1rem 30vh; */
+    display: flex;
+    
     margin-top: 30vh;
     min-height: 85vh;
 }
 
-.container{
-    
+.container {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 section {
-    display: inline-block;
+    flex-direction: column;
     min-width: 70vw;
-    margin-left: 220px;
 }
 
 article {
     padding-bottom: 1rem;
-    width: 80vw;
 }
 
 article p {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #titulo {
     display: flex;
     justify-content: center;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 aside {
-
-    margin-left: 30px;
     width: 150px;
-    display: inline-block;
+    margin: 2rem;
+    
 }
-
-
 
 #imagenFinal {
     width: 150px;
     height: 150px;
+    border-radius: 1rem 1em 1rem 1rem;
+    }
+#email{
+    color: black;
 }
