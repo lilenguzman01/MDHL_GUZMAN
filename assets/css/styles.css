@@ -1,29 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:cursive;
+    font-family: cursive;
 }
-body{
-    
+
+body {
     min-width: 80vw;
     height: 100vh;
 }
-header{
+
+header {
     min-height: 5vh;
     padding: 1rem;
 }
-nav{
+
+nav {
     min-width: 80vw;
     height: 40vh;
-    background-image: url(../img/design1_image2.jpg); 
+    background-image: url(../img/design1_image2.jpg);
     background-size: cover;
     background-position: 0 35%;
-    
-    
+
+
 }
-nav a{
-    
+
+nav a {
     color: aliceblue;
     background-color: blue;
     border: 1px solid black;
@@ -34,48 +36,57 @@ nav a{
     text-align: center;
     position: relative;
     left: 70%;
-    bottom:5px;
+    bottom: 5px;
 }
-main{
-    
+
+main {
+
     margin-top: 20px;
 }
-a[href="#"]{
+
+a[href="#"] {
     background-color: green;
 }
-section{
+
+section {
     display: inline-block;
     min-width: 70vw;
     margin-left: 220px;
 }
-article{
-    
+
+article {
+
     padding-bottom: 1rem;
     width: 80vw;
 }
-article p{
+
+article p {
     margin-top: 10px;
 }
-#titulo{
+
+#titulo {
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
-    
-    
+
+
 }
-aside{
+
+aside {
     position: absolute;
     top: 60%;
     margin-left: 30px;
     width: 150px;
     display: inline-block;
 }
-#logo{
+
+#logo {
     width: 150px;
     height: 150px;
     padding-bottom: 30px;
 }
-#imagenFinal{
+
+#imagenFinal {
     width: 150px;
     height: 150px;
-} 
+}
