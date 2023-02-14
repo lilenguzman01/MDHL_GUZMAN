@@ -4,27 +4,21 @@
     box-sizing: border-box;
     font-family: cursive;
 }
-
 body {
     min-width: 80vw;
     height: 100vh;
 }
-
 header {
     min-height: 5vh;
     padding: 1rem;
 }
-
 nav {
     min-width: 80vw;
     height: 40vh;
     background-image: url(../img/design1_image2.jpg);
     background-size: cover;
     background-position: 0 35%;
-
-
 }
-
 nav a {
     color: aliceblue;
     background-color: blue;
@@ -38,40 +32,29 @@ nav a {
     left: 70%;
     bottom: 5px;
 }
-
 main {
-
     margin-top: 20px;
 }
-
 a[href="#"] {
     background-color: green;
 }
-
 section {
     display: inline-block;
     min-width: 70vw;
     margin-left: 220px;
 }
-
 article {
-
     padding-bottom: 1rem;
     width: 80vw;
 }
-
 article p {
     margin-top: 10px;
 }
-
 #titulo {
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
-
-
 }
-
 aside {
     position: absolute;
     top: 60%;
@@ -79,13 +62,10 @@ aside {
     width: 150px;
     display: inline-block;
 }
-
 #logo {
     width: 150px;
-    height: 150px;
     padding-bottom: 30px;
 }
-
 #imagenFinal {
     width: 150px;
     height: 150px;
