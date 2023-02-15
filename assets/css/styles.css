@@ -141,7 +141,7 @@ tfoot tr {
     background-color: #7c6eae;
 }
 
-#texto {
+.texto {
     font-weight: bold;
     padding-top: 1.5rem;
 }
@@ -177,7 +177,7 @@ dt {
     list-style-type: lower-alpha;
 }
 
-#sangria {
+.sangria {
     text-indent: 3%;
 }
 
