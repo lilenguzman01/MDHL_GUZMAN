@@ -142,7 +142,7 @@ tfoot tr {
 }
 
 #texto {
-    font-weight: 600;
+    font-weight: bold;
     padding-top: 1.5rem;
 }
 
@@ -183,4 +183,12 @@ dt {
 
 #sinSangria {
     text-indent: 0;
+}
+
+footer {
+    background-color: rgb(39, 39, 86);
+    font-family: 'Times New Roman';
+    padding: 1rem;
+    text-align: left;
+    font-weight: bold;
 }
