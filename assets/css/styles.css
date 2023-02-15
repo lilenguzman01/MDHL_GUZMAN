@@ -7,7 +7,7 @@
 
 body {
     background-color: rgb(81, 74, 167);
-    color: white;
+    color: black;
 }
 
 header {
@@ -61,8 +61,8 @@ a[href="#"] {
 
 main {
     display: flex;
-
     margin-top: 30vh;
+    margin-bottom: 4rem;
     min-height: 85vh;
 }
 
@@ -107,7 +107,7 @@ article p {
 }
 
 #email {
-    color: black;
+    color: white;
 }
 
 table {
@@ -126,28 +126,61 @@ th,
 td {
     padding: .7rem;
 }
-th{
+
+th {
     background-color: rgb(110, 61, 175);
 }
-tbody tr:nth-child(even){
+
+tbody tr:nth-child(even) {
     background-color: #a6aaf0;
 }
 
-tbody tr:nth-child(odd), thead tr, tfoot tr{
+tbody tr:nth-child(odd),
+thead tr,
+tfoot tr {
     background-color: #7c6eae;
 }
-#texto{
-    color: black;
+
+#texto {
     font-weight: 600;
     padding-top: 1.5rem;
 }
-p{
+
+p {
     margin-top: .5rem;
 }
+
 span {
     font-weight: lighter;
-  }
-#textoSeparado{
+}
+
+#textoSeparado {
     display: flex;
     justify-content: space-between;
+}
+
+dt {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#titulosRules {
+    text-align: center;
+}
+
+#listasRules {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+#listaLetras {
+    list-style-type: lower-alpha;
+}
+
+#sangria {
+    text-indent: 3%;
+}
+
+#sinSangria {
+    text-indent: 0;
 }
