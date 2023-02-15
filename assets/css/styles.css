@@ -91,7 +91,6 @@ article p {
 }
 
 #titulo {
-    outline: solid red;
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
@@ -126,4 +125,29 @@ caption {
 th,
 td {
     padding: .7rem;
+}
+th{
+    background-color: rgb(110, 61, 175);
+}
+tbody tr:nth-child(even){
+    background-color: #a6aaf0;
+}
+
+tbody tr:nth-child(odd), thead tr, tfoot tr{
+    background-color: #7c6eae;
+}
+#texto{
+    color: black;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
+p{
+    margin-top: .5rem;
+}
+span {
+    font-weight: lighter;
+  }
+#textoSeparado{
+    display: flex;
+    justify-content: space-between;
 }
