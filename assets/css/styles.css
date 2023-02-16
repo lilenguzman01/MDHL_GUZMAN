@@ -141,7 +141,7 @@ tfoot tr {
 }
 
 .texto {
-    font-weight: bold;
+    font-weight: bold;/*mostrar texto en negrita*/
     padding-top: 1.5rem;
 }
 
@@ -149,11 +149,7 @@ p {
     margin-top: .5rem;
 }
 
-span {
-    font-weight: lighter;
-}
-
-#textoSeparado {
+#textoSeparado {/*para que el telefono y el email esten en la misma linea paro separados*/
     display: flex;
     justify-content: space-between;
 }
@@ -190,4 +186,7 @@ footer {
     padding: 1rem;
     text-align: left;
     font-weight: bold;
+}
+fieldset {
+    border: 0;
 }
