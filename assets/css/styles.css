@@ -35,11 +35,10 @@ header {
 }
 
 nav {
-    min-width: 50vw;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-self: self-end;
+    margin-right: 1rem;
 }
 
 nav a {
@@ -48,7 +47,7 @@ nav a {
     background-color: blue;
     border: 1px solid black;
     box-shadow: 3px 4px 0px gray;
-    margin: 1rem;
+    margin: 0.5rem ;
     padding-top: 1.5rem;
     padding: 0.5rem;
     text-decoration: none;
