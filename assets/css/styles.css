@@ -27,8 +27,9 @@ header {
     color: rgb(233, 236, 242);
     margin-right: 6rem;
 }
-h4{
-    margin-top: 1rem;
+
+h4 {
+    margin: 1rem;
 }
 
 #logo {
@@ -111,12 +112,6 @@ p {
     margin-top: .5rem;
 }
 
-#textoSeparado {
-    /*para que el telefono y el email esten en la misma linea paro separados*/
-    display: flex;
-    justify-content: space-between;
-}
-
 #imagenFinal {
     width: 150px;
     height: 150px;
@@ -132,7 +127,7 @@ table {
 caption {
     caption-side: bottom;
     text-align: right;
-    font-size: 20px;
+    font-size: 15px;
     padding: 0.3rem;
 }
 
@@ -157,6 +152,32 @@ tfoot tr {
 
 #email {
     color: white;
+}
+
+#textoSeparado {
+    
+    /*para que el telefono y el email esten en la misma linea paro separados*/
+    display: flex;
+    justify-content:space-between;
+}
+
+.contenedorMapas {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.mapas {
+    margin: 1rem;
+    padding: .5rem;
+    border: solid rgb(144, 144, 164) 2px;
+    border-radius: .5rem;
+    background-color: #7c6eae;
+
+}
+
+iframe {
+    border-radius: 1rem;
 }
 
 /*CSS rules*/
